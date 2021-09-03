@@ -1,4 +1,4 @@
-// Bottom up approach
+// top down approach
 #include<stdio.h>
 #include<iostream>
 using namespace std;

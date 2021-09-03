@@ -1,4 +1,4 @@
-//Minimum no of ways for getting sum
+//Minimum no of coins for getting sum
 #include<stdio.h>
 #include<iostream>
 #include<bits/stdc++.h>

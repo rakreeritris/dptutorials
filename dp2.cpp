@@ -1,4 +1,4 @@
-//Top down approach
+//bottom up approach
 #include<stdio.h>
 #include<iostream>
 using namespace std;
@@ -21,15 +21,16 @@ int knapsack(int*wt,int*val,int W,int n)
             {
             t[i][j]=t[i-1][j];
             }
-            
+         cout<<t[i][j]<<" ";   
         }
+        cout<<endl;
     }
 return t[n][W];
 }
 int main()
 {  int wt[4]={1,3,4,5};
    int val[4]={2,3,5,9};
-    int p=knapsack(wt,val,7,4);
-    cout<<p<<endl;
-    return 0;
+   int p=knapsack(wt,val,7,4);
+   cout<<p<<endl;
+   return 0;
 }
